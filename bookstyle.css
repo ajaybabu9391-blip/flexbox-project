@@ -1,0 +1,89 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+}
+
+/* 🔥 FLEX CONTAINER */
+.container {
+  display: flex;
+
+  flex-wrap: wrap;           /* move to next line */
+  justify-content: center;   /* center horizontally */
+  gap: 20px;                 /* space between books */
+
+  padding: 20px;
+}
+
+/* 📚 BOOK CARD */
+.book1{
+  width: 150px;
+  height: 200px;
+  background-color: greenyellow;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+}
+
+.book2{
+  width: 150px;
+  height: 200px;
+  background-color: pink;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+}
+
+.book3{
+  width: 150px;
+  height: 200px;
+  background-color: orangered;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+}
+
+.book4{
+  width: 150px;
+  height: 200px;
+  background-color: seagreen;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+}
+
+.book5{
+  width: 150px;
+  height: 200px;
+  background-color: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+}
+
+.book6{
+  width: 150px;
+  height: 200px;
+  background-color: yellow;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+}
